@@ -1,0 +1,5 @@
+name: ORCID Autopull
+type: module
+description: Automatically pulls author data (publications, keywords, employment, education) from ORCID.
+core_version_requirement: ^11 || ^10
+package: Custom

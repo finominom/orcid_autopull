@@ -1,0 +1,5 @@
+services:
+  orcid_autopull.api:
+    class: Drupal\orcid_autopull\Service\OrcidApi
+    arguments: ['@http_client', '@logger.factory']
+
